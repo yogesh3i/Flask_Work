@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+prefix=D:/Flask/venv/Library
+exec_prefix=D:/Flask/venv/Library
+libdir=D:/Flask/venv/Library/lib
+sharedlibdir=D:/Flask/venv/Library/lib
+includedir=D:/Flask/venv/Library/include
+=======
+prefix=D:/Flask/Flask_part3/venv/Library
+exec_prefix=D:/Flask/Flask_part3/venv/Library
+libdir=D:/Flask/Flask_part3/venv/Library/lib
+sharedlibdir=D:/Flask/Flask_part3/venv/Library/lib
+includedir=D:/Flask/Flask_part3/venv/Library/include
+>>>>>>> f9a46bb (ok)
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
