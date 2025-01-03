@@ -1,6 +1,6 @@
 from flask import Flask 
 
-app = Flask(__name__)  # This is the main instance of the app 
+app = Flask(__name__)  # This is the main instance of the app which allow you to define functionality of the app 
 
 # Creating home page 
 @app.route("/")    # This is the modules of the app 
